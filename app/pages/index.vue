@@ -1,5 +1,9 @@
 <script setup>
 import errorImage from '../assets/images/404.svg?raw'
+
+definePageMeta({
+  layout: false,
+})
 </script>
 
 <template>
